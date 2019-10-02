@@ -25,7 +25,9 @@ public class Application {
 		
 		
 		//kod HashMap ne upisujemo u for loop samo dictionary kao kod LinkedList ili Hashset, nego upisujemo dictionary.keySet())
+		
 		for(String word : dictionary.keySet()) {
+			
 			//ako zelimo ispisati Key, u ovom slucaju Brave, Brilliant, Joy i Confidence
 			//System.out.println(word);
 			
@@ -34,7 +36,7 @@ public class Application {
 		}
 		
 		for(String values : dictionary.values()) {
-			System.out.println(values);
+			//System.out.println(values);
 		}
 		
 		

@@ -12,12 +12,13 @@ public class ArrayListApp {
 		
 		ArrayList<String> words = new ArrayList<String>();
 		words.add("Hello");
-		words.add("There");
-		
-	
+		words.add("There");	
 		words.add("10");
 	
 		String item1 = words.get(2);
+		
+		
+		System.out.println(item1);
 		//za ispisati sve sto je u arraylisti po defaultu
 		System.out.println(words);
 		//za vertikalno ispisivanje svega sto je u arraylisti
@@ -25,8 +26,6 @@ public class ArrayListApp {
 			System.out.println(str);
 		}
 
-		System.out.println(item1);
-		
 		
 		LinkedList<Integer> numbers = new LinkedList<Integer>();
 		numbers.add(100);

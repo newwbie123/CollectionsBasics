@@ -20,12 +20,14 @@ public class Application {
 		ArrayList<Integer> newList = new ArrayList<Integer>();
 		
 		newList.add(10);
+		newList.add(12);
 		
 		//metoda za merganje vrijednosti obiju lista, dakle iz newList mergam u list1
 		list1.addAll(newList);
 		System.out.println(list1);
 		
-		//metoda za brisanje svih vrijednosti iz list1, a koje se nalaze u newList(u ovom slucaju Integer 10)
+		//metoda za brisanje svih vrijednosti iz list1, a koje se nalaze u newList(u ovom slucaju Integer 10 i 12)
+		
 		list1.removeAll(newList);
 		System.out.println(list1);
 
@@ -36,6 +38,9 @@ public class Application {
 		//metoda za brisanje svih vrijednosti u list1, a koje NISU u newList
 		//list1.retainAll(newList);
 		//System.out.println(list1);
+		
+		//System.out.println(newList);
+		//i dalje su sve prvotne vrijednosti ostale u newList
 		
 	}
 

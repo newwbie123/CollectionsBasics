@@ -15,6 +15,10 @@ public class Animal {
 		return "Animal [name=" + name + ", age=" + age + "]";
 	}
 
+	
+	
+	//desni klik->source->generate hashcode and equals i dobijemo ovo
+	
 //	@Override
 //	public int hashCode() {
 //		final int prime = 31;
@@ -24,6 +28,7 @@ public class Animal {
 //		return result;
 //	}
 
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

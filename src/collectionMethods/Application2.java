@@ -28,6 +28,7 @@ public class Application2 {
 		
 		
 		HashSet<Employee> empHash = new HashSet<Employee>();
+		
 		empHash.add(new Employee("Mike", 3500, "Accounting"));
 		empHash.add(new Employee("Paul", 3000, "Admin"));
 		empHash.add(new Employee("Peter", 4000, "IT"));
